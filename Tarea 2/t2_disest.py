@@ -55,7 +55,6 @@ def momento(W, l, factor):
 def rho_req(fcomp, fy, M, base, d):
     a = 0.85*fcomp/(fy)
     b = 1- 2*M/(0.9*0.85*base*fcomp*1000*(d**2))
-    print(b)
     return a*(1-b**0.5)
 
 #print(rho_req(28, 420, 147.121, 0.3, 0.39))
@@ -401,7 +400,22 @@ with open('T2.txt', 'a', encoding = 'UTF-8') as file:
     file.write('\n')
 
 def comprobacion():
-    a = int(input('cantidad N4'))
-    b = int(input('cantidad N5'))
-    c = int(input('cantidad N6'))
+    a = int(input('cantidad N4: '))
+    diama = a*2.54*4/8
+    b = int(input('cantidad N5: ')) + 2
+    diamb = b*2.54*5/8
+    c = int(input('cantidad N6: '))
+    diamc = c*2.54*6/8
+    entre = 2.54*(a+b+c-1)
+
+    esp = 2*4 + diama + diamb + diamc + entre
+    if esp <= 25:
+        print('cumple')
+        print(esp)
+    else:
+        print('no cumple')
+        print(esp)
+
+while True:
+    comprobacion()     
             

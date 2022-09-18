@@ -1,0 +1,472 @@
+Beta 1 = 0.85
+Rho_min = 0.003333333333333333
+Rho_max = 0.013546875
+As_min = 3.6666666666666665
+2 Barras No  5
+Rho_real = 0.00470044043689701
+
+Áreas de barras1No 4 = 1.65
+2No 4 = 3.3
+3No 4 = 4.949999999999999
+1No 5 = 2.59
+2No 5 = 5.18
+3No 5 = 7.77
+1No 6 = 3.72
+2No 6 = 7.44
+3No 6 = 11.16
+Vigas entrepiso
+Viga AB
+M(A) = 45.017374999999994
+Cuantía = 0.002536290919436866
+Área Adicional = 0
+
+M(AB) = 77.17264285714285
+Cuantía = 0.0044512971467383375
+Área Adicional = 1.23
+
+M(B) = 116.51242500000001
+Cuantía = 0.0069341444061804544
+Área Adicional = 3.96
+
+Viga BC 
+M(B) = 120.33470454545454
+Cuantía = 0.007184682236686044
+Área Adicional = 4.24
+
+M(BC) = 88.97175
+Cuantía = 0.0051786279184488325
+Área Adicional = 2.03
+
+M(C) = 111.5860909090909
+Cuantía = 0.0066138192731963995
+Área Adicional = 3.61
+
+Viga CD
+M(C) = 98.21972727272727
+Cuantía = 0.005758763514372048
+Área Adicional = 2.67
+M(CD) = 57.537
+Cuantía = 0.0032707822787347396
+Área Adicional = 0
+
+M(D) = 90.8096590909091
+Cuantía = 0.005293201721948902
+Área Adicional = 2.16
+
+Viga DE
+M(D) = 99.890625
+Cuantía = 0.0058645605743025825
+Área Adicional = 2.78
+
+M(DE) = 77.17264285714285
+Cuantía = 0.0044512971467383375
+Área Adicional = 1.23
+
+M(E) = 45.017374999999994
+Cuantía = 0.002536290919436866
+Área Adicional = 0
+Vigas Cubierta
+Viga AB
+M(A) = 59.24154166666667
+Cuantía = 0.0033718493181677696
+Área Adicional = 0.04
+
+M(AB) = 101.55692857142857
+Cuantía = 0.005970371889261452
+Área Adicional = 2.9
+
+M(B) = 153.32692500000002
+Cuantía = 0.009426008565852406
+Área Adicional = 6.7
+
+Viga BC 
+M(B) = 139.38811363636364
+Cuantía = 0.008461066283845057
+Área Adicional = 5.64
+
+M(BC) = 103.05925
+Cuantía = 0.006066033657749782
+Área Adicional = 3.01
+
+M(C) = 129.25427272727273
+Cuantía = 0.007776360922376033
+Área Adicional = 4.89
+
+Viga CD
+M(C) = 129.25427272727273
+Cuantía = 0.007776360922376033
+Área Adicional = 4.89
+M(CD) = 75.717
+Cuantía = 0.004362528330055276
+Área Adicional = 1.13
+
+M(D) = 119.5028409090909
+Cuantía = 0.007130005231139251
+Área Adicional = 4.18
+
+Viga DE
+M(D) = 131.453125
+Cuantía = 0.007923777202473947
+Área Adicional = 5.05
+
+M(DE) = 101.55692857142857
+Cuantía = 0.005970371889261452
+Área Adicional = 2.9
+
+M(E) = 59.24154166666667
+Cuantía = 0.0033718493181677696
+Área Adicional = 0.04
+Beta 1 = 0.85
+Rho_min = 0.003333333333333333
+Rho_max = 0.013546875
+As_min = 3.6666666666666665
+2 Barras No  5
+Rho_real = 0.00470044043689701
+
+Áreas de barras1No 4 = 1.65
+2No 4 = 3.3
+3No 4 = 4.949999999999999
+1No 5 = 2.59
+2No 5 = 5.18
+3No 5 = 7.77
+1No 6 = 3.72
+2No 6 = 7.44
+3No 6 = 11.16
+Vigas entrepiso
+Viga AB
+M(A) = 45.017374999999994
+Cuantía = 0.002536290919436866
+Área Adicional = 0
+
+M(AB) = 77.17264285714285
+Cuantía = 0.0044512971467383375
+Área Adicional = 1.23
+
+M(B) = 116.51242500000001
+Cuantía = 0.0069341444061804544
+Área Adicional = 3.96
+
+Viga BC 
+M(B) = 120.33470454545454
+Cuantía = 0.007184682236686044
+Área Adicional = 4.24
+
+M(BC) = 88.97175
+Cuantía = 0.0051786279184488325
+Área Adicional = 2.03
+
+M(C) = 111.5860909090909
+Cuantía = 0.0066138192731963995
+Área Adicional = 3.61
+
+Viga CD
+M(C) = 98.21972727272727
+Cuantía = 0.005758763514372048
+Área Adicional = 2.67
+M(CD) = 57.537
+Cuantía = 0.0032707822787347396
+Área Adicional = 0
+
+M(D) = 90.8096590909091
+Cuantía = 0.005293201721948902
+Área Adicional = 2.16
+
+Viga DE
+M(D) = 99.890625
+Cuantía = 0.0058645605743025825
+Área Adicional = 2.78
+
+M(DE) = 77.17264285714285
+Cuantía = 0.0044512971467383375
+Área Adicional = 1.23
+
+M(E) = 45.017374999999994
+Cuantía = 0.002536290919436866
+Área Adicional = 0
+Vigas Cubierta
+Viga AB
+M(A) = 59.24154166666667
+Cuantía = 0.0033718493181677696
+Área Adicional = 0.04
+
+M(AB) = 101.55692857142857
+Cuantía = 0.005970371889261452
+Área Adicional = 2.9
+
+M(B) = 153.32692500000002
+Cuantía = 0.009426008565852406
+Área Adicional = 6.7
+
+Viga BC 
+M(B) = 139.38811363636364
+Cuantía = 0.008461066283845057
+Área Adicional = 5.64
+
+M(BC) = 103.05925
+Cuantía = 0.006066033657749782
+Área Adicional = 3.01
+
+M(C) = 129.25427272727273
+Cuantía = 0.007776360922376033
+Área Adicional = 4.89
+
+Viga CD
+M(C) = 129.25427272727273
+Cuantía = 0.007776360922376033
+Área Adicional = 4.89
+M(CD) = 75.717
+Cuantía = 0.004362528330055276
+Área Adicional = 1.13
+
+M(D) = 119.5028409090909
+Cuantía = 0.007130005231139251
+Área Adicional = 4.18
+
+Viga DE
+M(D) = 131.453125
+Cuantía = 0.007923777202473947
+Área Adicional = 5.05
+
+M(DE) = 101.55692857142857
+Cuantía = 0.005970371889261452
+Área Adicional = 2.9
+
+M(E) = 59.24154166666667
+Cuantía = 0.0033718493181677696
+Área Adicional = 0.04
+Beta 1 = 0.85
+Rho_min = 0.003333333333333333
+Rho_max = 0.013546875
+As_min = 3.6666666666666665
+2 Barras No  5
+Rho_real = 0.00470044043689701
+
+Áreas de barras1No 4 = 1.65
+2No 4 = 3.3
+3No 4 = 4.949999999999999
+1No 5 = 2.59
+2No 5 = 5.18
+3No 5 = 7.77
+1No 6 = 3.72
+2No 6 = 7.44
+3No 6 = 11.16
+Vigas entrepiso
+Viga AB
+M(A) = 45.017374999999994
+Cuantía = 0.002536290919436866
+Área Adicional = 0
+
+M(AB) = 77.17264285714285
+Cuantía = 0.0044512971467383375
+Área Adicional = 1.23
+
+M(B) = 116.51242500000001
+Cuantía = 0.0069341444061804544
+Área Adicional = 3.96
+
+Viga BC 
+M(B) = 120.33470454545454
+Cuantía = 0.007184682236686044
+Área Adicional = 4.24
+
+M(BC) = 88.97175
+Cuantía = 0.0051786279184488325
+Área Adicional = 2.03
+
+M(C) = 111.5860909090909
+Cuantía = 0.0066138192731963995
+Área Adicional = 3.61
+
+Viga CD
+M(C) = 98.21972727272727
+Cuantía = 0.005758763514372048
+Área Adicional = 2.67
+M(CD) = 57.537
+Cuantía = 0.0032707822787347396
+Área Adicional = 0
+
+M(D) = 90.8096590909091
+Cuantía = 0.005293201721948902
+Área Adicional = 2.16
+
+Viga DE
+M(D) = 99.890625
+Cuantía = 0.0058645605743025825
+Área Adicional = 2.78
+
+M(DE) = 77.17264285714285
+Cuantía = 0.0044512971467383375
+Área Adicional = 1.23
+
+M(E) = 45.017374999999994
+Cuantía = 0.002536290919436866
+Área Adicional = 0
+Vigas Cubierta
+Viga AB
+M(A) = 59.24154166666667
+Cuantía = 0.0033718493181677696
+Área Adicional = 0.04
+
+M(AB) = 101.55692857142857
+Cuantía = 0.005970371889261452
+Área Adicional = 2.9
+
+M(B) = 153.32692500000002
+Cuantía = 0.009426008565852406
+Área Adicional = 6.7
+
+Viga BC 
+M(B) = 139.38811363636364
+Cuantía = 0.008461066283845057
+Área Adicional = 5.64
+
+M(BC) = 103.05925
+Cuantía = 0.006066033657749782
+Área Adicional = 3.01
+
+M(C) = 129.25427272727273
+Cuantía = 0.007776360922376033
+Área Adicional = 4.89
+
+Viga CD
+M(C) = 129.25427272727273
+Cuantía = 0.007776360922376033
+Área Adicional = 4.89
+M(CD) = 75.717
+Cuantía = 0.004362528330055276
+Área Adicional = 1.13
+
+M(D) = 119.5028409090909
+Cuantía = 0.007130005231139251
+Área Adicional = 4.18
+
+Viga DE
+M(D) = 131.453125
+Cuantía = 0.007923777202473947
+Área Adicional = 5.05
+
+M(DE) = 101.55692857142857
+Cuantía = 0.005970371889261452
+Área Adicional = 2.9
+
+M(E) = 59.24154166666667
+Cuantía = 0.0033718493181677696
+Área Adicional = 0.04
+Beta 1 = 0.85
+Rho_min = 0.003333333333333333
+Rho_max = 0.013546875
+As_min = 3.6666666666666665
+2 Barras No  5
+Rho_real = 0.00470044043689701
+
+Áreas de barras1No 4 = 1.65
+2No 4 = 3.3
+3No 4 = 4.949999999999999
+1No 5 = 2.59
+2No 5 = 5.18
+3No 5 = 7.77
+1No 6 = 3.72
+2No 6 = 7.44
+3No 6 = 11.16
+Vigas entrepiso
+Viga AB
+M(A) = 45.017374999999994
+Cuantía = 0.002536290919436866
+Área Adicional = 0
+
+M(AB) = 77.17264285714285
+Cuantía = 0.0044512971467383375
+Área Adicional = 1.23
+
+M(B) = 116.51242500000001
+Cuantía = 0.0069341444061804544
+Área Adicional = 3.96
+
+Viga BC 
+M(B) = 120.33470454545454
+Cuantía = 0.007184682236686044
+Área Adicional = 4.24
+
+M(BC) = 88.97175
+Cuantía = 0.0051786279184488325
+Área Adicional = 2.03
+
+M(C) = 111.5860909090909
+Cuantía = 0.0066138192731963995
+Área Adicional = 3.61
+
+Viga CD
+M(C) = 98.21972727272727
+Cuantía = 0.005758763514372048
+Área Adicional = 2.67
+M(CD) = 57.537
+Cuantía = 0.0032707822787347396
+Área Adicional = 0
+
+M(D) = 90.8096590909091
+Cuantía = 0.005293201721948902
+Área Adicional = 2.16
+
+Viga DE
+M(D) = 99.890625
+Cuantía = 0.0058645605743025825
+Área Adicional = 2.78
+
+M(DE) = 77.17264285714285
+Cuantía = 0.0044512971467383375
+Área Adicional = 1.23
+
+M(E) = 45.017374999999994
+Cuantía = 0.002536290919436866
+Área Adicional = 0
+Vigas Cubierta
+Viga AB
+M(A) = 59.24154166666667
+Cuantía = 0.0033718493181677696
+Área Adicional = 0.04
+
+M(AB) = 101.55692857142857
+Cuantía = 0.005970371889261452
+Área Adicional = 2.9
+
+M(B) = 153.32692500000002
+Cuantía = 0.009426008565852406
+Área Adicional = 6.7
+
+Viga BC 
+M(B) = 139.38811363636364
+Cuantía = 0.008461066283845057
+Área Adicional = 5.64
+
+M(BC) = 103.05925
+Cuantía = 0.006066033657749782
+Área Adicional = 3.01
+
+M(C) = 129.25427272727273
+Cuantía = 0.007776360922376033
+Área Adicional = 4.89
+
+Viga CD
+M(C) = 129.25427272727273
+Cuantía = 0.007776360922376033
+Área Adicional = 4.89
+M(CD) = 75.717
+Cuantía = 0.004362528330055276
+Área Adicional = 1.13
+
+M(D) = 119.5028409090909
+Cuantía = 0.007130005231139251
+Área Adicional = 4.18
+
+Viga DE
+M(D) = 131.453125
+Cuantía = 0.007923777202473947
+Área Adicional = 5.05
+
+M(DE) = 101.55692857142857
+Cuantía = 0.005970371889261452
+Área Adicional = 2.9
+
+M(E) = 59.24154166666667
+Cuantía = 0.0033718493181677696
+Área Adicional = 0.04
