@@ -1,12 +1,11 @@
 import numpy as np
+from matplotlib import pyplot as plt
 
-print('en unidades de m, kN, MPA')
+fc = 21
 
-fc = 35
+bv = 0.25
 
-bv = 0.4
-
-hv = 0.6
+hv = 0.5
 
 filas = 1
 
@@ -15,6 +14,8 @@ tbarra = 7/8
 numbarra = 8
 
 As = numbarra * np.pi*(0.5*tbarra*0.0254)**2
+adi = 2.9
+As = (3.667 + adi)*10**-4
 
 def_u_c = 0.003
 
@@ -31,7 +32,7 @@ print(d_prima)
 '''
 
 d_prima = 0.06
-d_prima = 0.6- (1/As) * (0.5*As*(hv-0.06) + 0.5*As*(hv-(0.06+0.0254+0.02225)))
+
 
 E_young = 4700*(fc)**0.5
 
@@ -44,6 +45,7 @@ k = (-rho*n+((rho*n)**2+2*rho*n)**0.5)
 a = As*fsy/(0.85*fc*bv)
 
 b1 = 0.85-0.05*(fc-28)/7
+b1 = 0.85
 
 def rho_min(fcomp, fy):
     return max((0.25*fcomp**0.5)/fy, 1.4/fy)
@@ -86,7 +88,7 @@ def m_nom (cuant, fy, base, d, fcomp):
 
 mfis = mom_fis(fc, bv, hv)
 pfis = phi(mfis, E_young, bv, hv)
-#print(mfis*1000,pfis)
+y1, x1 = mfis*1000, pfis
 
 mconc = m_fc(fc, bv, (hv-d_prima), k)
 pconc = phi_conc(fc, E_young, k, (hv-d_prima))
@@ -96,6 +98,22 @@ msteel = m_fs(As, fsy, (hv-d_prima), k)
 psteel = phi_steel(0.0021, (hv-d_prima), k)
 #print(msteel*1000,psteel)
 
-mfin = m_nom(rho,fsy,bv,(hv-d_prima), fc)
-#print(mfin*1000, 0.003/(a/b1))
+if min(msteel,mconc) == msteel:
+    y2, x2 = min(msteel,mconc)*1000, psteel
+else: 
+    y2, x2 = min(msteel,mconc)*1000, pconc
 
+mfin = m_nom(rho,fsy,bv,(hv-d_prima), fc)
+y3, x3 = mfin*1000, 0.003/(a/b1)
+
+plt.plot([0,x1], [0,y1])
+plt.scatter(x1, y1, label = '(' + str(round(x1, 5)) + ' , ' + str(round(y1, 2)) + ')')
+plt.plot([x1,x2], [y1,y2])
+plt.scatter(x2, y2, label = '(' + str(round(x2, 5)) + ' , ' + str(round(y2, 2)) + ')')
+plt.plot([x2,x3], [y2,y3])
+plt.scatter(x3, y3, label = '(' + str(round(x3, 5)) + '  ,' + str(round(y3, 2)) + ')')
+plt.xlabel('Curvatura(1/m)')
+plt.ylabel('Momento (kNm)')
+plt.legend()
+plt.title('Momento Curvatura')
+plt.show()
